@@ -1,0 +1,56 @@
+.one{
+    background-color: aqua;
+    display: block;
+    height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    
+   
+}
+
+.two_one{
+    background-color: blue;
+    display:inline-block;
+    text-align: center;
+    height: 200px;
+    width: 50%;
+    line-height: 200px;
+    
+}
+.two_two{
+    background-color: indianred;
+    display:inline-block;
+    text-align: center;
+    height: 200px;
+    width: 50%;
+    line-height: 200px;
+    
+}
+.three_one{
+    background-color: rgb(235, 33, 174);
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 33.33%;
+    line-height: 200px;
+   
+}
+.three_two{
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 33.33%;
+    line-height: 200px;
+   
+}
+.three_three{
+    background-color: rgb(98, 233, 8);
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 33.33%;
+    line-height: 200px;
+   
+}
