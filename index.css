@@ -5,7 +5,7 @@
     text-align: center;
     vertical-align: middle;
     line-height: 300px;
-    
+    font: bold;
    
 }
 
@@ -16,7 +16,7 @@
     height: 200px;
     width: 50%;
     line-height: 200px;
-    
+    font: bold;
 }
 .two_two{
     background-color: indianred;
@@ -25,7 +25,7 @@
     height: 200px;
     width: 50%;
     line-height: 200px;
-    
+    font: bold;
 }
 .three_one{
     background-color: rgb(235, 33, 174);
@@ -34,7 +34,7 @@
     height: 200px;
     width: 33.33%;
     line-height: 200px;
-   
+    font: bold;
 }
 .three_two{
     background-color: red;
@@ -43,7 +43,7 @@
     height: 200px;
     width: 33.33%;
     line-height: 200px;
-   
+    font: bold;
 }
 .three_three{
     background-color: rgb(98, 233, 8);
@@ -52,5 +52,5 @@
     height: 200px;
     width: 33.33%;
     line-height: 200px;
-   
+    font: bold;
 }
