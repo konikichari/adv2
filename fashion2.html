@@ -6,8 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Columbia Fashion</title>
     <link rel="stylesheet" href="./fashion3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <header class="main-heading">
+        <div class="logo-part">
+            <img class="logo" src="./logo.png" alt="logo">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." class="search-box">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="navigation">
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li class="main-nav-item">Men</li>
+                    <li class="main-nav-item">Women</li>
+                    <li class="main-nav-item">Footwear</li>
+                    <li class="main-nav-item">Hike & Trek</li>
+                    <li class="main-nav-item">Ski & Snow</li>
+                    <li class="main-nav-item">Travel & Lifestyle</li>
+                    <li class="main-nav-item">Shop By Season</li>
+                    <li class="main-nav-item">Deals</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <div class="main">
         <div class="view">
             <div class="view1">
@@ -54,7 +78,7 @@
                 </span>
             </div>
             <div>
-                <span>SIZE</span>
+                SIZE
             </div>
             
             <div class="vsize">
@@ -85,11 +109,46 @@
                 <button class="check" >CHECK</button>
             </div>
             <div class="final">
-                <button class="atc" onclick="http://google.com" >ADD TO CART</button>
-                <button class="bn" onclick="">BUY NOW</button>
-                <button class="atwl" onclick="" > ADD TO WISH LIST</button>
+                <a class="atc" href="#">ADD TO CART</a>
+                <a class="bn" href="#">BUY NOW</a>
+                <a class="atwl" href="#">ADD TO WISH LIST</a>
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="footer1">
+            <div class="support">
+                <span>Support</span>
+                <ul class="footer-list1">
+                    <li class="footer-list-item"><a class="footer-link" href="#">Track your order</a></li>
+                    <li class="footer-list-item"><a class="footer-link"  href="#">Sizing chart</a></li>
+                    <li class="footer-list-item"><a class="footer-link" href="#">FAQ's</a></li>
+                    <li class="footer-list-item"><a class="footer-link" href="#">Product care instructions</a></li>
+                    <li class="footer-list-item"><a class="footer-link" href="#">Contact us</a></li>
+                    <li class="footer-list-item"><a class="footer-link" href="#">Warrenty</a></li>
+                </ul>
+            </div>
+            <div class="discover">
+                <span>Discover</span>
+                <ul class="footer-list2">
+                    <li class="footer-list-item"><a class="footer-link" href="#">About us</a></li>
+                    <li class="footer-list-item"><a class="footer-link"  href="#">Trending styles</a></li>
+                    <li class="footer-list-item"><a class="footer-link" href="#">Blogs</a></li>
+                    <li class="footer-list-item"><a class="footer-link" href="#">Store locator</a></li>
+                    <li class="footer-list-item"><a class="footer-link" href="#">Technology & Innovations</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="title">
+                <span>Connect with us</span>
+            </div>
+            <div class="subscribe"> 
+                <input type="text" class="email" placeholder="Enter your email"><button 
+                class="sub">subscribe</button>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
