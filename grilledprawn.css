@@ -1,0 +1,143 @@
+.header {
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-content span {
+    color: rgb(235, 79, 105);
+    font-weight: 600;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navigation a:last-child {
+    margin-right: 3rem;
+}
+
+.latest-image {
+    background-color: rgb(235, 79, 105); 
+}
+
+.latest-img {
+    width: 100%;
+    border-top-right-radius: 15px;
+}
+
+.latest-recipe-content {
+    background-color: rgb(235, 79, 105);
+    color: white;
+}
+
+.lrc {
+    padding-top: 30px;
+    width: 90%;
+}
+
+.lrc h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+}
+
+.lrc p {
+    line-height: 2rem;
+}
+
+.lrc a {
+    margin-top: 30px;
+}
+
+.Our-Recipes {
+    padding: 20px 0px 20px 70px;
+    background-color: #F0F0F0;
+}
+
+.nav-bar ul {
+    padding-left: 0px;
+    position: relative;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+}
+
+.nav-bar ul li:hover {
+    cursor: pointer;
+}
+
+.mega-menu {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 750px;
+    height: 250px;
+    background-color: blue;
+    transition: all 0.3s;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.inner-mega-menu {
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+
+}
+
+#myInput {
+    padding: 20px;
+    margin-top: -6px;
+    border: 0;
+    border-radius: 0;
+    background: #f1f1f1;
+}
+
+.cards {
+     padding: 2rem 5rem;
+     background-color: #F0F0F0;
+
+  
+}
+
+.card img {
+    width: 100%;
+    align-items: center;
+    height: 15rem;
+}
+
+.card {
+    padding: 2rem;
+    border: violet;
+    background-color: #F0F0F0;
+}
+
+.card-bg {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.spread-the-word {
+    background-color: pink;
+    padding: 2rem 5rem;
+}
+
+.send {
+    align-items: center;
+    padding-left: 31rem;
+    margin-top: 2rem;
+}
