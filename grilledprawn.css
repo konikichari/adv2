@@ -12,6 +12,10 @@
     font-weight: 600;
 }
 
+.logo-content {
+    padding-left: 3rem;
+}
+
 .navigation {
     display: flex;
     justify-content: space-around;
@@ -63,7 +67,7 @@
 }
 
 .Our-Recipes {
-    padding: 20px 0px 20px 70px;
+    padding: 20px 0px 20px 80px;
     background-color: #F0F0F0;
 }
 
@@ -107,6 +111,15 @@
     background: #f1f1f1;
 }
 
+.date {
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.country {
+    margin-top: 10px;
+}
+
 .cards {
      padding: 2rem 5rem;
      background-color: #F0F0F0;
@@ -121,7 +134,7 @@
 }
 
 .card {
-    padding: 2rem;
+    padding: 1rem;
     border: violet;
     background-color: #F0F0F0;
 }
@@ -136,8 +149,35 @@
     padding: 2rem 5rem;
 }
 
+.card-bg h4 {
+    padding-left: 10px;
+}
+
 .send {
     align-items: center;
     padding-left: 31rem;
     margin-top: 2rem;
 }
+
+.footer {
+    padding: 2rem 3rem 3rem 5rem;
+    background-color: #F0F0F0;
+
+
+}
+
+.footer span {
+    text-align: center;
+    font-weight: 700;
+}
+
+.footer p {
+    padding-top: 1rem;
+
+}
+
+.prawn {
+    padding-left: 5rem;
+}
+
+
